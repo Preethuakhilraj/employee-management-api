@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vite",
-    "build": "vite build",
+    "build": "netlify deploy --prod",
     "serve": "vite preview",
     "vercel-build": "vite build"
   },
@@ -21,6 +21,9 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.4.3",
     "morgan": "^1.10.0",
-    "path": "^0.12.7"
+    "netlify-cli": "^17.32.0",
+    "netlify-lambda": "^2.0.16",
+    "path": "^0.12.7",
+    "serverless-http": "^3.2.0"
   }
 }
